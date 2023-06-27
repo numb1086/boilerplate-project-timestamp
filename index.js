@@ -42,10 +42,6 @@ app.get("/api/:date?", function(req, res) {
   } else {
     res.json({ error: utcTime });
   }
-  console.log("dateString: " + dateString);
-  console.log("unixTime: " + unixTime);
-  console.log("utcTime: " + utcTime);
-  console.log("-");
 });
 
 
